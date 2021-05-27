@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <WebView
+                android:id="@+id/webview"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/tmoneyroundwindextrabold"
+                android:text="자신의 보험사에 전화하세요"
+                android:textAlignment="center"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/black"/>
+
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="20dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/tmoneyroundwindextrabold"
+                        android:text="삼성화재"
+                        android:gravity="center"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:background="@drawable/table_inside"
+                        android:autoLink="phone"/>
+
+                    <Button
+                        android:id="@+id/tel_1"
+                        android:layout_width="180dp"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/tmoneyroundwindextrabold"
+                        android:text="1588-5114"
+                        android:textAlignment="center"
+                        android:background="@drawable/table_inside"
+                        android:autoLink="phone"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/tmoneyroundwindextrabold"
+                        android:text="동부화재"
+                        android:gravity="center"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:background="@drawable/table_inside" />
+
+                    <Button
+                        android:id="@+id/tel_2"
+                        android:layout_width="180dp"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/tmoneyroundwindextrabold"
+                        android:text="1588-0100"
+                        android:textAlignment="center"
+                        android:background="@drawable/table_inside"
+                        android:autoLink="phone"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/tmoneyroundwindextrabold"
+                        android:text="롯데손해"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"
+                        android:background="@drawable/table_inside" />
+
+                    <Button
+                        android:id="@+id/tel_3"
+                        android:layout_width="180dp"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/tmoneyroundwindextrabold"
+                        android:text="1588-3344"
+                        android:textAlignment="center"
+                        android:background="@drawable/table_inside"
+                        android:autoLink="phone"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_inside"
+                        android:fontFamily="@font/tmoneyroundwindextrabold"
+                        android:text="메리츠"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:textAlignment="center" />
+
+                    <Button
+                        android:id="@+id/tel_4"
+                        android:layout_width="180dp"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/tmoneyroundwindextrabold"
+                        android:text="1566-4982"
+                        android:textAlignment="center"
+                        android:background="@drawable/table_inside"
+                        android:autoLink="phone"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/tmoneyroundwindextrabold"
+                        android:text="한화손해보험"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"
+                        android:background="@drawable/table_inside" />
+
+                    <Button
+                        android:id="@+id/tel_5"
+                        android:layout_width="180dp"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/tmoneyroundwindextrabold"
+                        android:text="1566-8000"
+                        android:textAlignment="center"
+                        android:background="@drawable/table_inside"
+                        android:autoLink="phone"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/tmoneyroundwindextrabold"
+                        android:text="KB손해보험"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:textAlignment="center"
+                        android:background="@drawable/table_inside" />
+
+                    <Button
+                        android:id="@+id/tel_6"
+                        android:layout_width="180dp"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/tmoneyroundwindextrabold"
+                        android:text="1544-0114"
+                        android:textAlignment="center"
+                        android:background="@drawable/table_inside"
+                        android:linksClickable="true"
+                        android:autoLink="phone"/>
+                </TableRow>
+
+            </TableLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/tmoneyroundwindextrabold"
+                android:text="부상자가 있는 경우 신속히 경찰과 119에 신고하세요"
+                android:textAlignment="center"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/black"/>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="20dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/tmoneyroundwindextrabold"
+                        android:text="경찰"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"
+                        android:background="@drawable/table_inside" />
+
+                    <Button
+                        android:id="@+id/tel_7"
+                        android:layout_width="180dp"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/tmoneyroundwindextrabold"
+                        android:text="112"
+                        android:textAlignment="center"
+                        android:background="@drawable/table_inside"
+                        android:autoLink="phone"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/tmoneyroundwindextrabold"
+                        android:text="구급출동"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"
+                        android:background="@drawable/table_inside" />
+
+                    <Button
+                        android:id="@+id/tel_8"
+                        android:layout_width="180dp"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/tmoneyroundwindextrabold"
+                        android:text="119"
+                        android:textAlignment="center"
+                        android:background="@drawable/table_inside"
+                        android:autoLink="phone"/>
+                </TableRow>
+
+            </TableLayout>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>

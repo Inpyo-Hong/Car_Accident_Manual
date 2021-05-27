@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="@font/tmoneyroundwindextrabold"
+        android:text="매뉴얼에 따라 순서대로 사진을 촬영하세요."
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_frag5_1"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="left"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:gravity="center_vertical"
+            android:fontFamily="@font/tmoneyroundwindextrabold"
+            android:text="1. 원거리 사진 촬영 (20~30m 거리)"
+            android:background="@drawable/btn_radius"/>
+        <ImageView
+            android:id="@+id/btn_frag5_1_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="30dp"
+            android:visibility="invisible"
+            android:src="@drawable/checkmark_reshape"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_frag5_2"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="left"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:gravity="center_vertical"
+            android:fontFamily="@font/tmoneyroundwindextrabold"
+            android:text="2. 타이어 및 핸들 사진 촬영"
+            android:background="@drawable/btn_radius"/>
+        <ImageView
+            android:id="@+id/btn_frag5_2_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="30dp"
+            android:visibility="invisible"
+            android:src="@drawable/checkmark_reshape"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_frag5_3"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="left"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:gravity="center_vertical"
+            android:fontFamily="@font/tmoneyroundwindextrabold"
+            android:text="3. 파손부위 근접 사진 촬영"
+            android:background="@drawable/btn_radius"/>
+        <ImageView
+            android:id="@+id/btn_frag5_3_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="30dp"
+            android:visibility="invisible"
+            android:src="@drawable/checkmark_reshape"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_frag5_4"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="left"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:gravity="center_vertical"
+            android:fontFamily="@font/tmoneyroundwindextrabold"
+            android:text="4. 상대차량 블랙박스 장착 사진 촬영"
+            android:background="@drawable/btn_radius"/>
+        <ImageView
+            android:id="@+id/btn_frag5_4_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="30dp"
+            android:visibility="invisible"
+            android:src="@drawable/checkmark_reshape"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/frag_5_result"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:src="@drawable/image_reshape"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:gravity="right">
+
+
+
+        <Button
+            android:id="@+id/btn_capture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/tmoneyroundwindextrabold"
+            android:background="@drawable/btn_radius"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="촬영"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

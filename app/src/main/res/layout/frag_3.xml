@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/frag_3_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:gravity="center"
+                android:fontFamily="@font/tmoneyroundwindextrabold"
+                android:text="상대 운전자의 정보를"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/fag_3_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/tmoneyroundwindextrabold"
+                android:text="입력하세요"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="22sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="40dp"
+                android:paddingTop="80dp">
+                <TextView
+                    android:id="@+id/frag_3_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/tmoneyroundwindextrabold"
+                    android:text="이름"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:textSize="22sp" />
+                <EditText
+                    android:id="@+id/frag_3_name_input"
+                    android:layout_marginLeft="50dp"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="40dp"
+                android:paddingTop="50dp">
+                <TextView
+                    android:id="@+id/frag_3_tel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/tmoneyroundwindextrabold"
+                    android:text="연락처"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:textSize="22sp" />
+                <EditText
+                    android:id="@+id/frag_3_tel_input"
+                    android:layout_marginLeft="31dp"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="40dp"
+                android:paddingTop="50dp">
+                <TextView
+                    android:id="@+id/frag_3_car"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/tmoneyroundwindextrabold"
+                    android:text="차량번호"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:textSize="22sp" />
+                <EditText
+                    android:id="@+id/frag_3_car_input"
+                    android:layout_marginLeft="11dp"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"/>
+
+
+
+            </LinearLayout>
+            <Button
+                android:id="@+id/frag_3_btn_save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/tmoneyroundwindextrabold"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="300dp"
+                android:layout_gravity="right"
+                android:background="@drawable/btn_radius"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:text="저장"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

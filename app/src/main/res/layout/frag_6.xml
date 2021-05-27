@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="후속조치 행동요령"
+            android:fontFamily="@font/tmoneyroundwindextrabold"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/my_purple"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/tmoneyroundwindextrabold"
+            android:layout_marginTop="9dp"
+            android:text="1~5번까지 모든 조치 후 "
+            android:layout_marginLeft="20dp"
+            android:bufferType="spannable"
+            android:textColor="@color/my_purple"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_marginTop="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:textColor="@color/my_purple"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:gravity="center_vertical"
+        android:textSize="16sp"
+        android:fontFamily="@font/tmoneyroundwindextrabold"
+        android:text="차량 - 보행자"
+        android:background="@color/white"/>
+    <TextView
+        android:id="@+id/fag_6_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/tmoneyroundwindextrabold"
+        android:text="보행자의 안전을 확보 한 후 신속하게 경찰과 119에 \n신고하세요."
+        android:gravity="left"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:textColor="@color/my_purple"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginLeft="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:gravity="center_vertical"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/tmoneyroundwindextrabold"
+        android:text="차량 - 차량"
+        android:background="@color/white"/>
+    <TextView
+        android:id="@+id/fag_6_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/tmoneyroundwindextrabold"
+        android:text="  1. 상대 사고자와 합의 후 안전한 곳으로 \n     차를 이동시켜 보험사, 경찰을 기다립니다."
+        android:gravity="left"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/fag_6_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/tmoneyroundwindextrabold"
+        android:text="  2. 만일 상대 사고자가 수긍하지 않아 차량을 이동할 수\n     없는 경우 차에서 내려 교통정리를 해야 합니다."
+        android:gravity="left"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/fag_6_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/tmoneyroundwindextrabold"
+        android:text="  3. 고속도로에서 사고가 난 경우 가드레일 밖으로 \n     대피를 합니다."
+        android:gravity="left"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+</LinearLayout>
